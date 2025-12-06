@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'user_api_db',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': '', # Intentionally removed the password
         'HOST': 'localhost',
         'PORT': '3306',
     }
